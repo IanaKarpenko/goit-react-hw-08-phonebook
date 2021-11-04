@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    align-items: center;
+  }
+
+.avatar {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.name {
+    font-weight: 700;
+    margin-right: 15px;
+    text-shadow: 2px 2px 4px #00000067;
+}
+
+.userName {
+    text-decoration: underline;
+}
+
+.button {
+    margin-top: 3px;
+    margin-right: 20px;
+    width: 60px;
+    height: 22px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: orange;
+    box-shadow: rgba(19, 19, 36, 0.671) 0px 2px 5px -1px, rgba(0, 0, 0, 0.63) 0px 1px 3px -1px;
+  
+    &:focus,
+    &:hover {
+      background-color: orange;
+      color: black;
+      font-weight: 700;
+      box-shadow: rgba(0, 0, 0, 0.377) 0px 54px 55px, rgba(0, 0, 0, 0.233) 0px -12px 30px, rgba(0, 0, 0, 0.171) 0px 4px 6px, rgba(0, 0, 0, 0.185) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+}

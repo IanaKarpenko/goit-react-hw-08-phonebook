@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.back {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(255, 153, 0, 0.5), rgba(32, 29, 32, 0.733)), url('wall.jpg');
+}
+
+.spinnerContainer{
+  display: flex;
+  justify-content: center;
+}

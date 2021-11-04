@@ -1,0 +1,74 @@
+.registrationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #00000073;
+}
+
+.wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.842);
+    box-shadow: rgba(17, 17, 26, 0.897) 0px 4px 16px, rgba(17, 17, 26, 0.562) 0px 8px 32px;
+}
+
+
+.form {
+    margin-top: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.label {
+  padding-bottom: 10px;
+  font-size: larger;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #00000067;
+}
+
+.input {
+  width: 300px;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.623);
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 20px;
+  width: 170px;
+  height: 32px;
+  margin-left: 78px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: orange;
+  box-shadow: rgba(19, 19, 36, 0.842) 0px 2px 5px -1px, rgba(0, 0, 0, 0.849) 0px 1px 3px -1px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+  &:focus,
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.432) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}

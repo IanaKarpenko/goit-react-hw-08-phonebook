@@ -1,0 +1,54 @@
+/*
+const welcomeStyles = {
+    container: {
+        padding: '40px 0'
+      },
+      title: {
+        fontWeight: 500,
+        fontSize: 48,
+        textAlign: 'center',
+      },
+}*/
+
+.container {
+    //max-width: 754px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlesContainer {
+    background-color: rgba(128, 128, 128, 0.76);
+    box-shadow: rgba(17, 17, 26, 0.897) 0px 4px 16px, rgba(17, 17, 26, 0.562) 0px 8px 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 700px;
+    margin-left: 25px;
+}
+
+.resource {
+    color: white;
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: 700px;
+    font-size: 40;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #0000004d;
+}
+
+.subtitle {
+    font-weight: 700px;
+    font-size: 40;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 4px #0000004d;
+}
+
+.image {
+    margin-left: 28px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
